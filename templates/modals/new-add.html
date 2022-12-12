@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="/css/modals.css" />
     <link rel="stylesheet" href="/css/common.css" />
   </head>
   <body>
     <wrap class="modal-background">
-      <div class="modal-box">
+      <div class="new-modal-box">
         <div class="modal-header">
           <div class="modal-header-left">
             <img src="/css/icons/modal-header-title.svg" alt="icon" />
@@ -19,7 +20,7 @@
             <img src="/css/icons/modal-header-close.svg" alt="close-icon" />
           </button>
         </div>
-        <form class="modal-main">
+        <form class="new-modal-main">
           <div>
             <span class="new-main-title">연락처</span>
             <input type="text" class="new-phone-num" name="phone-num" />
@@ -30,7 +31,11 @@
           </div>
           <div>
             <span class="new-main-title">성별</span>
-            <input type="text" class="new-gender" name="gender" />
+            <select name="gender" class="new-gender">
+              <option>선택</option>
+              <option value="male">남</option>
+              <option value="female">여</option>
+            </select>
           </div>
           <div>
             <span class="new-main-title">나이</span>
@@ -42,9 +47,9 @@
           </div>
           <div>
             <span class="new-main-title">세부사항</span>
-            <input type="text" class="new-info" name="detail-info" />
+            <textarea class="new-info" name="detail-info"></textarea>
           </div>
-          <div class="modal-btn">
+          <div class="new-modal-btn">
             <button class="modal-cancel-btn">취소</button>
             <input type="submit" class="modal-save-btn" value="저장" />
           </div>
