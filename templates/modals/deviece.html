@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/modals.css" />
+    <link rel="stylesheet" href="/css/common.css" />
+  </head>
+  <body>
+    <wrap class="modal-background">
+      <div class="device-modal-box">
+        <div class="modal-header">
+          <div class="deveice-modal-header-left">
+            <img src="/css/icons/modal-header-title.svg" alt="icon" />
+            <span class="modal-title">디바이스 선택</span>
+          </div>
+          <button type="button" class="modal-close-btn">
+            <img src="/css/icons/modal-header-close.svg" alt="close-icon" />
+          </button>
+        </div>
+        <form class="device-modal-main">
+          <select name="location" class="device-location">
+            <option value="">P12017;3/3sbxxx0;이촌1동1102</option>
+            <option value="">P12017;3/3sbxxx0;이촌1동1102</option>
+          </select>
+          <div class="device-mode-box">
+            <span class="device-main-title"> 모드선택 </span>
+            <div>
+              <label>
+                <input
+                  type="radio"
+                  class="device-mode"
+                  name="mode"
+                  value="대상선택"
+                />대상선택</label
+              >
+              <label>
+                <input
+                  type="radio"
+                  class="device-mode"
+                  name="mode"
+                  value="법보행"
+                />법보행</label
+              >
+            </div>
+          </div>
+          <div class="device-start-box">
+            <span class="device-main-tilte">시작 시간</span>
+            <input
+              type="text"
+              class="device-start"
+              value="2022/06/13 17:06"
+              readonly
+            />
+            <div class="device-start-btn">
+              <button type="button" class="minute-btn one">1분</button>
+              <button type="button" class="minute-btn three">3분</button>
+              <button type="button" class="minute-btn five">5분</button>
+              <button type="button" class="minute-btn seven">7분</button>
+            </div>
+          </div>
+          <div class="device-end-box">
+            <span class="device-main-title">끝 시간</span>
+            <input
+              type="text"
+              class="device-end"
+              value="2022/06/13 17:06"
+              readonly
+            />
+          </div>
+          <div class="device-modal-btn">
+            <button type="button" class="modal-cancel-btn">취소</button>
+            <button class="modal-confirm-btn">확인</button>
+          </div>
+        </form>
+      </div>
+    </wrap>
+  </body>
+</html>

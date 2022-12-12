@@ -1,0 +1,109 @@
+.complete-background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(102.15% 197.75% at 100% 100%, #151d28 73.91%, #004c67 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.complete-container {
+  width: 1840px;
+  height: 951px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(133.84deg, #4e4e4e -16.04%, #333333 9.33%, #1a1a1a 32.02%, #1a1a1a 62.06%, #262626 87.42%, #4e4e4e 112.12%);
+  box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.8);
+}
+
+.complete-header {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff;
+}
+
+.complete-header-left {
+  display: flex;
+}
+
+.incomplete-btn {
+  width: 180px;
+  height: 70px;
+  background: transparent;
+  color: #ffffff;
+  font-weight: "700";
+  font-size: 20px;
+  text-align: center;
+  line-height: 70px;
+}
+
+.complete-btn {
+  width: 180px;
+  height: 70px;
+  background: #6be2be;
+  color: #000000;
+  font-weight: "700";
+  font-size: 20px;
+  text-align: center;
+  line-height: 70px;
+}
+
+.complete-header-right {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-right: 62.5px;
+}
+.complete-header-right > button {
+  position: absolute;
+  line-height: 0;
+  background-color: transparent;
+  border: none;
+  right: 14px;
+}
+
+.complete-search {
+  width: 280px;
+  height: 40px;
+  background: rgba(229, 229, 229, 0.1);
+  border-radius: 8px;
+  color: #f0f0f0;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  padding-left: 14px;
+  padding-right: 40px;
+}
+.complete-search::-moz-placeholder {
+  color: #929292;
+  font-size: 14px;
+}
+.complete-search:-ms-input-placeholder {
+  color: #929292;
+  font-size: 14px;
+}
+.complete-search::placeholder {
+  color: #929292;
+  font-size: 14px;
+}
+.complete-search::-ms-clear, .complete-search::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+.complete-search::-webkit-search-decoration, .complete-search::-webkit-search-cancel-button, .complete-search::-webkit-search-results-button, .complete-search::-webkit-search-results-decoration {
+  display: none;
+}
+
+.complete-main {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px 40px 24px 40px;
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=complete.css.map */

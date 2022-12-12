@@ -22,7 +22,7 @@
   border-bottom: 1px solid #ffffff;
 }
 
-.modal-header-left {
+.modal-header-left, .target-modal-header-left, .deveice-modal-header-left {
   width: 89px;
   display: flex;
   justify-content: space-between;
@@ -117,7 +117,7 @@
   font-size: 18px;
 }
 .new-gender > option {
-  background-color: black;
+  color: black;
 }
 
 .new-age::-webkit-outer-spin-button, .new-age::-webkit-inner-spin-button {
@@ -158,7 +158,7 @@
   width: 425px;
 }
 
-.delete-modal-main {
+.delete-modal-main, .save-modal-main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -170,7 +170,7 @@
   font-size: 20px;
 }
 
-.delete-modal-btn {
+.delete-modal-btn, .save-modal-btn {
   display: flex;
   width: 249px;
   margin: 0 auto;
@@ -179,4 +179,151 @@
   justify-content: space-between;
   margin-top: 48px;
   margin-bottom: 24px;
+}
+
+/* --------- */
+/* save.html */
+/* --------- */
+.save-modal-box {
+  width: 596px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(133.84deg, #4e4e4e -16.04%, #333333 9.33%, #1a1a1a 32.02%, #1a1a1a 62.06%, #262626 87.42%, #4e4e4e 112.12%);
+  border-radius: 6px;
+  width: 425px;
+}
+
+/* ----------- */
+/* choice.html */
+/* ----------- */
+.device-modal-box {
+  width: 596px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(133.84deg, #4e4e4e -16.04%, #333333 9.33%, #1a1a1a 32.02%, #1a1a1a 62.06%, #262626 87.42%, #4e4e4e 112.12%);
+  border-radius: 6px;
+  width: 425px;
+}
+
+.deveice-modal-header-left {
+  width: 138.5px;
+}
+
+.device-modal-main {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 24px 16px;
+}
+
+.device-location {
+  width: 100%;
+  height: 44px;
+  box-sizing: border-box;
+  padding-left: 16px;
+  background: url("/css/icons/caret-down.svg") no-repeat right 16px center;
+  border: 1px solid #d4d4d4;
+  border-radius: 6px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none;
+}
+.device-location > option {
+  color: black;
+}
+
+.device-mode-box {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.device-mode-box > div {
+  display: flex;
+  justify-content: space-between;
+  width: 198px;
+  margin-top: 8px;
+}
+.device-mode-box > div > label {
+  font-size: 18px;
+}
+.device-mode-box > div > label > input {
+  margin-right: 8px;
+  accent-color: #6be2be;
+}
+
+.device-main-tilte {
+  font-family: "500";
+  font-size: 18px;
+}
+
+.device-start-box, .device-end-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.device-start, .device-end {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 8px;
+  height: 44px;
+  border: 1px solid #d4d4d4;
+  border-radius: 6px;
+  padding-left: 16px;
+  background-color: transparent;
+  outline: none;
+  font-size: 18px;
+}
+
+.device-start-btn {
+  width: 100%;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.minute-btn {
+  width: 87px;
+  height: 29px;
+  background: #6be2be;
+  border-radius: 6px;
+  border: none;
+  color: #1a1a1a;
+  font-family: "500";
+}
+
+.device-modal-btn {
+  display: flex;
+  width: 249px;
+  margin: 0 auto;
+  margin-top: 24px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+
+/* ----------- */
+/* target.html */
+/* ----------- */
+.target-modal-box {
+  width: 596px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(133.84deg, #4e4e4e -16.04%, #333333 9.33%, #1a1a1a 32.02%, #1a1a1a 62.06%, #262626 87.42%, #4e4e4e 112.12%);
+  border-radius: 6px;
+  width: 1325px;
+}
+
+.target-modal-header-left {
+  width: 174.5px;
+}
+
+.target-main-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
 }/*# sourceMappingURL=modals.css.map */

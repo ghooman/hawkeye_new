@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/map.css" />
+    <link rel="stylesheet" href="/css/common.css" />
+    <title>HAWKEYE</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#header").load("/templates/header.html");
+      });
+    </script>
+  </head>
+  <body>
+    <wrap class="map-background">
+      <!-- 헤더 불러옴 -->
+      <div id="header"></div>
+      <div class="map-contaniner">
+        <div class="map-left-box">
+          <div class="map-info-box">
+            <div class="map-info-header">
+              <img src="/css/icons/modal-header-title.svg" alt="icon" />
+              <span class="map-header-title">대상 정보</span>
+            </div>
+            <div class="map-top-main">
+              <div class="info-top">
+                <div>
+                  <span class="map-info-title">이름</span>
+                  <span class="info-name">엔아이</span>
+                </div>
+                <div>
+                  <span class="map-info-title">성별</span>
+                  <span class="info-gender">남</span>
+                </div>
+              </div>
+              <div class="info-bottom">
+                <div>
+                  <span class="map-info-title">나이</span>
+                  <span class="info-age">50세</span>
+                </div>
+                <div>
+                  <span class="map-info-title">연락처</span>
+                  <span class="info-num">010-0000-0000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="map-process-box">
+            <div class="map-process-header">
+              <img src="/css/icons/modal-header-title.svg" alt="icon" />
+              <span class="map-header-title">프로세스</span>
+            </div>
+          </div>
+        </div>
+        <div class="map-right-box">
+          <div class="map"></div>
+        </div>
+      </div>
+    </wrap>
+  </body>
+</html>
