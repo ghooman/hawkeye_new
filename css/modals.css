@@ -326,4 +326,123 @@
   width: 100%;
   box-sizing: border-box;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.target-main-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.target-main-title {
+  width: 180px;
+  height: 45px;
+  background-color: #6be2be;
+  color: black;
+  font-family: "700";
+  font-size: 20px;
+  text-align: center;
+  line-height: 45px;
+}
+
+.target-location {
+  color: #6be2be;
+}
+
+.target-main-box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 24px;
+  border: 4px solid #6be2be;
+  display: flex;
+  justify-content: space-between;
+}
+
+.target-main-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.target-time-box {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 253px;
+  padding: 16px;
+  background: linear-gradient(133.84deg, #4e4e4e -16.04%, #333333 9.33%, #1a1a1a 32.02%, #1a1a1a 62.06%, #262626 87.42%, #4e4e4e 112.12%);
+  border-radius: 6px;
+}
+.target-time-box > div {
+  display: flex;
+  flex-direction: column;
+}
+.target-time-box > div:nth-child(2) {
+  margin-top: 16px;
+}
+
+.target-time-title {
+  font-family: "500";
+  font-size: 14px;
+}
+
+.target-time-start,
+.target-time-end {
+  width: 100%;
+  height: 28px;
+  box-sizing: border-box;
+  border: 1px solid #d4d4d4;
+  border-radius: 6px;
+  padding-left: 16px;
+  line-height: 28px;
+  margin-top: 8px;
+}
+
+.target-area-box {
+  width: 253px;
+  box-sizing: border-box;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(133.84deg, #4e4e4e -16.04%, #333333 9.33%, #1a1a1a 32.02%, #1a1a1a 62.06%, #262626 87.42%, #4e4e4e 112.12%);
+  border-radius: 6px;
+  margin-top: 16px;
+}
+
+.target-area-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.area-header-text {
+  font-size: 14px;
+}
+
+.target-area-main {
+  width: 100%;
+  height: 254px;
+  background-color: #5a5a5a;
+  margin-top: 8px;
+}
+
+.target-area-btn {
+  width: 100%;
+  height: 30px;
+  margin-top: 8px;
+  background-color: #6be2be;
+  border: none;
+  color: #1a1a1a;
+  font-family: "500";
+  font-size: 13px;
+}
+
+.target-main-right {
+  width: 960px;
+  height: auto;
+  border: 2px solid #6be2be;
+  border-radius: 6px;
 }/*# sourceMappingURL=modals.css.map */
