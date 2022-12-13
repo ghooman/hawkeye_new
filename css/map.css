@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .map-background {
   position: relative;
   width: 100%;
@@ -98,10 +99,41 @@
   flex-direction: column;
 }
 
+.map-process-header {
+  display: flex;
+}
+.map-process-header > div {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.target-mode, .walking-mode {
+  margin-left: 10px;
+  font-family: "600";
+  font-size: 20px;
+  color: #ff7e78;
+}
+
+.walking-mode {
+  color: #9290fe;
+}
+
 .map-right-box {
   width: 1512px;
   box-sizing: border-box;
   height: 100%;
   background: linear-gradient(133.84deg, #4e4e4e -16.04%, #333333 9.33%, #1a1a1a 32.02%, #1a1a1a 62.06%, #262626 87.42%, #4e4e4e 112.12%);
   box-shadow: 2px 6px 15px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* 프로세스 메뉴들 완료 전 색상 */
+.uncomplete {
+  background-color: #363636;
+  color: #ffffff;
+}
+
+/* 태그 숨기는 클래스 */
+.hidden {
+  display: none;
 }/*# sourceMappingURL=map.css.map */
