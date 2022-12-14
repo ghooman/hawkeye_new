@@ -22,7 +22,7 @@
   border-bottom: 1px solid #ffffff;
 }
 
-.modal-header-left, .human-modal-header-left, .walking-modal-header-left, .target-modal-header-left, .deveice-modal-header-left {
+.modal-header-left, .large-modal-header-left, .human-modal-header-left, .walking-modal-header-left, .target-modal-header-left, .deveice-modal-header-left {
   width: 89px;
   display: flex;
   justify-content: space-between;
@@ -821,6 +821,37 @@
   margin-top: 24px;
   box-sizing: border-box;
   justify-content: space-between;
+}
+
+/* ---------- */
+/* large.html */
+/* ---------- */
+.large-modal-box {
+  width: 596px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(133.84deg, #4e4e4e -16.04%, #333333 9.33%, #1a1a1a 32.02%, #1a1a1a 62.06%, #262626 87.42%, #4e4e4e 112.12%);
+  border-radius: 6px;
+  width: 944px;
+}
+
+.large-modal-header-left {
+  width: 102px;
+}
+
+.large-modal-main {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 24px;
+  display: flex;
+}
+
+.large-img-box {
+  width: 100%;
+  height: 540px;
+  box-sizing: border-box;
+  border: 2px solid #6be2be;
+  border-radius: 6px;
 }
 
 /* 태그 숨기기 클래스명 */
