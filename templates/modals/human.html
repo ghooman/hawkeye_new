@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/modals.css" />
+    <link rel="stylesheet" href="/css/common.css" />
+  </head>
+  <body>
+    <wrap class="modal-background">
+      <div class="human-modal-box">
+        <div class="modal-header">
+          <div class="human-modal-header-left">
+            <img src="/css/icons/modal-header-title.svg" alt="icon" />
+            <span class="modal-title">휴먼 검색 요청</span>
+          </div>
+          <button type="button" class="modal-close-btn">
+            <img src="/css/icons/modal-header-close.svg" alt="close-icon" />
+          </button>
+        </div>
+        <form class="human-modal-main">
+          <input
+            type="text"
+            class="human-main-input"
+            placeholder="작업명을 입력하세요."
+          />
+          <div class="human-time-btn">
+            <button type="button" class="human-minute-btn one">1분</button>
+            <button type="button" class="human-minute-btn three">3분</button>
+            <button type="button" class="human-minute-btn five">5분</button>
+            <button type="button" class="human-minute-btn seven">7분</button>
+          </div>
+          <div class="human-start-box">
+            <span class="human-main-text">시작 시간</span>
+            <span class="human-start">2022/12/13 17:00</span>
+          </div>
+          <div class="human-end-box">
+            <span class="human-main-text">끝 시간</span>
+            <span class="human-end">2022/12/13 17:00</span>
+          </div>
+          <div class="human-rank-box">
+            <span class="human-main-text">Cluster Rank</span>
+            <input type="number" class="human-rank" value="1" />
+            <button type="button" class="human-plus-btn"></button>
+            <button type="button" class="human-minus-btn"></button>
+          </div>
+          <div class="human-precision-box">
+            <span class="human-main-text">정밀도</span>
+            <select name="precision" class="human-precision">
+              <option value="high">상</option>
+              <option value="medium">중</option>
+              <option value="low">하</option>
+            </select>
+          </div>
+          <div class="human-modal-btn">
+            <button type="button" class="modal-cancel-btn">취소</button>
+            <button class="modal-request-btn">요청</button>
+          </div>
+        </form>
+      </div>
+    </wrap>
+  </body>
+</html>

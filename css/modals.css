@@ -22,7 +22,7 @@
   border-bottom: 1px solid #ffffff;
 }
 
-.modal-header-left, .walking-modal-header-left, .target-modal-header-left, .deveice-modal-header-left {
+.modal-header-left, .human-modal-header-left, .walking-modal-header-left, .target-modal-header-left, .deveice-modal-header-left {
   width: 89px;
   display: flex;
   justify-content: space-between;
@@ -49,7 +49,7 @@
   background-color: transparent;
 }
 
-.modal-save-btn, .modal-confirm-btn, .modal-delete-btn {
+.modal-save-btn, .modal-request-btn, .modal-confirm-btn, .modal-delete-btn {
   width: 117px;
   height: 46px;
   color: black;
@@ -666,6 +666,161 @@
   color: black;
   border-radius: 8px;
   margin-top: 36.5px;
+}
+
+/* ---------- */
+/* human.html */
+/* ---------- */
+.human-modal-box {
+  width: 596px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(133.84deg, #4e4e4e -16.04%, #333333 9.33%, #1a1a1a 32.02%, #1a1a1a 62.06%, #262626 87.42%, #4e4e4e 112.12%);
+  border-radius: 6px;
+  width: 396px;
+}
+
+.human-modal-header-left {
+  width: 145px;
+}
+
+.human-modal-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 24px 20px;
+}
+
+.human-main-input {
+  width: 100%;
+  height: 44px;
+  border: 1px solid #f1f1f1;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 0px 10px;
+  background-color: transparent;
+  font-family: "200";
+  font-size: 18px;
+  outline: none;
+}
+
+.human-time-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.human-minute-btn {
+  width: 80px;
+  height: 29px;
+  border: none;
+  background: #6be2be;
+  border-radius: 6px;
+  font-family: "500";
+  color: black;
+}
+
+.human-start-box, .human-rank-box,
+.human-precision-box, .human-end-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 16px;
+}
+.human-start-box > .human-main-text, .human-rank-box > .human-main-text,
+.human-precision-box > .human-main-text, .human-end-box > .human-main-text {
+  width: 60px;
+  text-align: right;
+  font-family: "500";
+}
+
+.human-end-box {
+  margin-top: 8px;
+}
+
+.human-start,
+.human-end {
+  width: 276px;
+  height: 44px;
+  border: 1px solid #d4d4d4;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 0px 16px;
+  line-height: 44px;
+}
+
+.human-rank-box,
+.human-precision-box {
+  position: relative;
+  margin-top: 16px;
+}
+.human-rank-box > .human-main-text,
+.human-precision-box > .human-main-text {
+  width: 93px;
+  font-family: "500";
+}
+
+.human-rank {
+  width: 243px;
+  height: 44px;
+  border: 1px solid #d4d4d4;
+  border-radius: 6px;
+  background-color: transparent;
+  padding: 0px 16px;
+  box-sizing: border-box;
+}
+.human-rank::-webkit-outer-spin-button, .human-rank::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.human-plus-btn {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  border: none;
+  background: url("/css/icons/plus-btn.svg") no-repeat;
+  background-size: contain;
+  right: 48px;
+}
+
+.human-minus-btn {
+  position: absolute;
+  background: url("/css/icons/minus-btn.svg") no-repeat;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-size: contain;
+  right: 16px;
+}
+
+.human-precision {
+  width: 243px;
+  height: 44px;
+  border: 1px solid #d4d4d4;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: transparent;
+  padding: 0px 16px;
+  background: url("/css/icons/caret-down.svg") no-repeat right 16px center;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.human-precision > option {
+  color: black;
+}
+
+.human-modal-btn {
+  display: flex;
+  width: 249px;
+  margin: 0 auto;
+  margin-top: 24px;
+  box-sizing: border-box;
+  justify-content: space-between;
 }
 
 /* 태그 숨기기 클래스명 */
