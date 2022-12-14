@@ -4,13 +4,22 @@
   height: 100%;
   background: radial-gradient(102.15% 197.75% at 100% 100%, #151d28 73.91%, #004c67 100%);
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.incomplete-main {
+  width: 100%;
+  height: 100%;
+  padding: 24px 40px;
+  box-sizing: border-box;
+  display: flex;
 }
 
 .incomplete-container {
   width: 1840px;
-  height: 951px;
+  height: 100%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   background: linear-gradient(133.84deg, #4e4e4e -16.04%, #333333 9.33%, #1a1a1a 32.02%, #1a1a1a 62.06%, #262626 87.42%, #4e4e4e 112.12%);
